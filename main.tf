@@ -9,3 +9,10 @@ module "s3-webapp" {
   prefix  = var.prefix
   version = "1.0.0"
 }
+
+#
+#module "s3-webapp" {
+#  source  = "app.terraform.io/Simons_test_TD_Cloud_org/s3-webapp/aws"
+#  version = "1.0.0"
+#  # insert required variables here
+#}
